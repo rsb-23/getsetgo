@@ -20,3 +20,4 @@ repos:
     rev: 7.0.0
     hooks:
       - id: flake8
+        args: [--config, getsetgo/setup.cfg]
